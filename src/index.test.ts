@@ -1,7 +1,7 @@
 import bonjour from ".";
 
-describe("bonjour", () => {
-    it("should return 'Bonjour'", () => {
+describe("Je vais tester bonjour", () => {
+    it("Le fonction doit retourner 'bonjour'", () => {
         expect(bonjour()).toBe("Bonjour");
     });
 });
